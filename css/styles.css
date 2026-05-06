@@ -1,10 +1,10 @@
 /*DEFININDO CORES PADRÃO*/
 
 :root{
-    --cor-primaria: #FF9AA2;
-    --cor-segundaria: #B5eAD7;
-    --cor-destaque: #FFDAC1;
-    --cor-texto:#2F4858;
+    --cor-primaria: #e49aff;
+    --cor-segundaria: #cab5ea;
+    --cor-destaque: #6a2d8b;
+    --cor-texto:#562f58;
     --sombra:0 4px 6px rgba(0, 0, 0, 0.1);
     --transicao: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 };
@@ -24,7 +24,7 @@ html {
 body{
     font-family: 'Quicksand', 'sans-serif';
     color: var(--cor-texto);
-    background: #f8f8f8;
+    background: #fbcfff;
     line-height: 1.6;
 }
 
@@ -41,7 +41,7 @@ h3 {font-size: 1.5rem;}
     background: linear-gradient(135deg, var(--cor-primaria), var(--cor-segundaria)
     );
     padding: 2rem 1rem;
-    color: white;
+    color: rgb(252, 203, 253);
     text-align: center;
     box-shadow: var(--sombra);
     position: relative;
@@ -70,7 +70,7 @@ h3 {font-size: 1.5rem;}
     display: flex;
     justify-content: center;
     gap: 1.5rem;
-    background: rgba(255, 255, 255,0.95);
+    background: rgba(237, 190, 255, 0.95);
     backdrop-filter: blur(10px);
     position: sticky;
     top: 0;
